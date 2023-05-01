@@ -7,6 +7,7 @@ public class Piege extends Evenement{
 	public Piege(Personnage hero) {
 		super(hero);
 		// TODO Auto-generated constructor stub 
+		//essai 2
 	}
 
 	@Override
