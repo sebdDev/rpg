@@ -3,7 +3,7 @@ package rpg;
 import java.util.Random;
 
 public class StaticData {
-	//
+	//essai de modification
 	private static String[] listeAdjectifs = {"heureux", "triste", "grand", "petit", "beau", "moche", 
 			"riche", "pauvre", "fort", "faible", "lent", "rapide", "intelligent", "stupide", "brillant", 
 			"terne", "calme", "bruyant", "généreux", "égoïste", "brave", "peureux", 
