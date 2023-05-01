@@ -8,7 +8,7 @@ public abstract class Evenement {
 	
 	public Evenement(Personnage hero) {
 		
-		this.hero = hero;
+		this.hero = hero; 
 	}
 
 	

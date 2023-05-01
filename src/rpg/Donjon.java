@@ -16,7 +16,7 @@ public class Donjon {
 		
 				
 		/**
-		 * Générateur de monstre
+		 * Générateur de monstre 
 		 */ 
 		for(int i = 0; i < nbPieces; i++) {
 			

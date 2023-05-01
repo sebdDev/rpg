@@ -11,7 +11,7 @@ public class Combat extends Evenement{
 	
 	@Override
 	public Personnage resoudre() {
-		// Fonction de combat anciennement dans main
+		// Fonction de combat anciennement dans main 
 		while(hero.IsAlive() && hero2.IsAlive()) {
 			System.out.println(hero.getNom()+" attaque "+hero2.getNom() + " avec "+
 					hero.getArme().getNom()+ " et l'armure "+ hero.getArmure().getNom());

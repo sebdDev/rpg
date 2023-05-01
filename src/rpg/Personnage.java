@@ -34,7 +34,7 @@ public class Personnage {
 	
 	}
 	/**
-	 * @return the pv
+	 * @return the pv 
 	 */
 	public float getPv() {
 		return pv;

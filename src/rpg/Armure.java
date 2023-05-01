@@ -5,7 +5,7 @@ public class Armure extends Objet{
 	private float defense = 1;
 	
 	/**
-	 * @return the defense
+	 * @return the defense 
 	 */
 	public float getDefense() {
 		return defense;

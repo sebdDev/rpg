@@ -6,6 +6,7 @@ public class Arme extends Objet{
 		
 	/**
 	 * @return the degats
+	 * 
 	 */
 	public float getDegats() {
 		return degats;

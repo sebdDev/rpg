@@ -10,6 +10,7 @@ public abstract class Objet {
 	 * heritage
 	 *
 	 * polymorphysme
+	 * 
 	 */
 	
 	public Objet(String nom, int poids) {

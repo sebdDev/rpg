@@ -11,7 +11,7 @@ public class Rpg {
 	
 	public static void main(String[] args) {
 		
-		//on cree notre hero
+		//on cree notre hero  
 		Personnage hero = new Personnage();
 		hero.setNom("Jean-Sebastien");
 		hero.setPv(100);
