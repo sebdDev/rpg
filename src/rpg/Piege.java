@@ -1,5 +1,7 @@
 package rpg;
 
+import java.util.Random;
+
 public class Piege extends Evenement{
 	
 	
@@ -12,8 +14,14 @@ public class Piege extends Evenement{
 
 	@Override
 	public Personnage resoudre() {
-		return null;
-		// TODO Auto-generated method stub
+		Random rand = new Random();
+		float degats = rand.nextFloat(-1, 1)* 20;
+		
+		System.out.println(degats < 0 ? "le piége donne des PV" : "le piége retire des PV");
+		hero.setPv(hero.getPv() - degats);
+		
+		return hero;
+		
 		
 	}
 

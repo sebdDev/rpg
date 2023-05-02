@@ -108,24 +108,7 @@ public class Personnage {
 		return this.getPv() > 0;
 	}
 	
-	/*public void equiper(Objet objet) {
 		
-		if(objet instanceof Arme) {
-			if(!this.inventaire.contains(objet)) {
-				this.inventaire.add(objet);
-			}
-			this.setArme((Arme)objet);
-		}
-		
-		if(objet instanceof Armure) {
-			if(!this.inventaire.contains(objet)) {
-				this.inventaire.add(objet);
-			}
-			this.setArmure((Armure)objet);
-		}
-	
-	}*/
-	
 	public void piller(Personnage autre) {
 
 		if( this.getArme().getDegats() < autre.getArme().getDegats() ) {
@@ -147,6 +130,6 @@ public class Personnage {
 	
 	@Override
 	public String toString() {
-		return this.getNom()+" ("+this.getPv()+"PV)";
+		return this.getNom()+" ("+this.getPv()+" PV)";
 	}
 }
